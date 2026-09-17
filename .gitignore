@@ -1,0 +1,38 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.eggs/
+build/
+dist/
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
+
+# Data (downloaded/cached by loaders.py, or stray)
+*.npy
+*.npz
+*.h5
+*.parquet
+datasets/*.txt
+
+# Results / generated outputs
+results/
+
+# Old / superseded experiment folder
+experiment_strong_old/
+
+# Misc
+*.log
